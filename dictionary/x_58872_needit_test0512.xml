@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="test0512" max_length="40" name="x_58872_needit_test0512" sizeclass="5" type="collection">
+        <element attributes="encode_utf8=false" label="Request for" mandatory="true" max_length="32" name="u_reference_1" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Assigned Group" max_length="32" name="u_reference_2" reference="sys_user_group" type="reference"/>
+    </element>
+</database>
